@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:layout_height="wrap_content">
+            <solid android:color="@color/black"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@android:color/transparent"
+                android:centerY="0.5" android:centerX="0.6"
+                android:startColor="#3F51B5"
+                android:gradientRadius="160%"
+                android:type="radial"/>
+        </shape>
+    </item>
+</layer-list>
